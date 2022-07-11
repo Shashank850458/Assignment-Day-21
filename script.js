@@ -13,11 +13,11 @@ window.onload = function() {
             }
             if (i == 0) {
                 a.classList.add('container','text-center', 'text-secondary','fw-bold','fs-1')
-                a.innerText = "Happy Independence Day !"
+                a.innerText = "Happy Independence Day"
                 img.onload = function(){
                   div.appendChild(img);
                 };
-                img.src= "https://media.giphy.com/media/gWhzI4AeKa9KdOLhUh/giphy.gif";
+                
                 return
             }
             i--
